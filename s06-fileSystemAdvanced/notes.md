@@ -146,12 +146,16 @@ Se crean igual que los simbólicos pero sin el parámetro s.
 
 Un hard link en Linux es un tipo de enlace que permite crear múltiples entradas en el sistema de archivos que apuntan a los mismos bloques de datos en el disco duro. A diferencia de los soft links, los hard links no apuntan a rutas o nombres de archivo, sino que se refieren directamente a los bloques de datos del archivo original. Los hard links pueden existir en distintas ubicaciones del sistema de archivos y reflejan los cambios en el contenido del archivo original. Sin embargo, solo pueden crearse dentro del mismo sistema de archivos y solo para archivos, no para directorios.
 
-Pero es tratado como un archivo normal
+Pero es tratado como un archivo normal aunque el inodo es exactamente el mismo
 
 ```bash
--rw-rw-r-- 2 javier javier   42 abr 10 23:31 hardLink.txt
--rw-rw-r-- 2 javier javier   42 abr 10 23:31 originalFile.txt
-drwxrwxr-x 2 javier javier 4,0K abr 10 23:34 randFolder
-lrwxrwxrwx 1 javier javier   16 abr 10 23:35 secondFile.txt -> originalFile.txt
-
+3170750 -rw-rw-r-- 1 javier javier   11 abr 10 17:24 exercises.txt
+3170798 -rw-rw-r-- 2 javier javier   42 abr 10 23:31 hardLink.txt
+3170798 -rw-rw-r-- 2 javier javier   42 abr 10 23:31 originalFile.txt
+3170832 drwxrwxr-x 2 javier javier 4096 abr 10 23:34 randFolder
+3170800 lrwxrwxrwx 1 javier javier   16 abr 10 23:35 secondFile.txt -> originalFile.txt
 ```
+
+El número que está después de los permisos hace referencia al número de enlaces duro que tieene el fichero
+
+Los enlaces de directorio arriba . y .. son tratados como enlaces duro.
