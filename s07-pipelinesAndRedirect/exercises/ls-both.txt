@@ -1,0 +1,7 @@
+total 16K
+drwxrwxr-x 2 javier javier 4,0K abr 17 18:13 .
+drwxrwxr-x 3 javier javier 4,0K abr 17 17:06 ..
+-rw-rw-r-- 1 javier javier   68 abr 17 17:58 error_lis.txt
+-rw-rw-r-- 1 javier javier    0 abr 17 18:16 ls-both.txt
+-rw-rw-r-- 1 javier javier    0 abr 17 17:16 newFile.txt
+-rw-rw-r-- 1 javier javier  443 abr 17 17:17 salida_ls.txt

@@ -1,0 +1,10 @@
+total 8,0K
+drwxrwxr-x 2 javier javier 4,0K abr 17 17:14 .
+drwxrwxr-x 3 javier javier 4,0K abr 17 17:06 ..
+-rw-rw-r-- 1 javier javier    0 abr 17 17:16 newFile.txt
+-rw-rw-r-- 1 javier javier    0 abr 17 17:16 salida_ls.txt
+total 12K
+drwxrwxr-x 2 javier javier 4,0K abr 17 17:14 .
+drwxrwxr-x 3 javier javier 4,0K abr 17 17:06 ..
+-rw-rw-r-- 1 javier javier    0 abr 17 17:16 newFile.txt
+-rw-rw-r-- 1 javier javier  222 abr 17 17:16 salida_ls.txt
