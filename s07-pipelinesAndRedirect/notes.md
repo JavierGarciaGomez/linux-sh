@@ -501,5 +501,20 @@ ls /usr/bin/ | sort | grep zip | tail -3
 zipinfo
 zipnote
 zipsplit
-
 ```
+
+### TEE
+
+¡Claro! El comando tee en Linux se utiliza para leer la entrada de un comando y escribirla tanto en la salida estándar (stdout) como en uno o más archivos. Es especialmente útil cuando se desea capturar la salida de un comando en un archivo y al mismo tiempo ver la salida en la pantalla.
+
+Aquí hay un ejemplo de cómo se puede usar el comando tee:
+
+```bash
+ls -l /usr/bin/ | tee output.txt
+```
+
+Este comando lista los archivos en el directorio /usr/bin/ con información detallada (-l), y luego utiliza tee para escribir la salida tanto en la pantalla como en un archivo llamado output.txt. Esto permite ver la salida en la pantalla en tiempo real, mientras se guarda una copia en el archivo output.txt para referencia posterior.
+
+El comando tee también admite opciones adicionales, como -a para anexar la salida a un archivo en lugar de sobrescribirlo, y la posibilidad de especificar varios archivos de salida. Puedes consultar la página de manual del comando tee (man tee) para obtener más información sobre sus opciones y funcionalidades.
+
+## 48. Comando SED
