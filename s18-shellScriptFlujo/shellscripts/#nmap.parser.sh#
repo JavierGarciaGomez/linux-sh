@@ -1,0 +1,3 @@
+#!/bin/bash
+
+# Este programa parse los resultados de nmap y construye un documento html

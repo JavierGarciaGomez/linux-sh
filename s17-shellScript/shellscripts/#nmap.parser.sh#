@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Este programa parse los resultados de nmap y construye un documento html
+
+echo "<html>"
+Regenerate response
+
+echo "<html>"title>Resultados nmap</title>"
+#!/bin/bash
+
+# Este programa parse los resultados de nmap y construye un documento html
